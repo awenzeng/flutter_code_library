@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:fluttercodelibrary/FlaxLayout.dart';
+import 'package:fluttercodelibrary/animation/ChartsAnimation.dart';
+import 'package:fluttercodelibrary/animation/MaskAnimation.dart';
+import 'package:fluttercodelibrary/animation/ValueAnimation.dart';
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key}) : super(key: key);
@@ -9,12 +13,12 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   //当前选中项的索引
-  int _selectedIndex = 1;
+  int _selectedIndex = 0;
   //导航栏按钮选中对应数据
   final _widgetOptions = [
-    Text('Index 0: 信息'),
-    Text('Index 1: 通讯录'),
-    Text('Index 2: 发现'),
+    FlaxLayout(),
+    MaskAnimation(),
+    ValueAnimation(),
   ];
 
   @override

@@ -67,9 +67,9 @@ class _MaskAnimationState extends State<MaskAnimation> with TickerProviderStateM
       animation: _controller,
       builder: (BuildContext context, Widget child) {
         return Scaffold(
-          appBar: AppBar(
-            title: Text('遮罩动画'),
-          ),
+//          appBar: AppBar(
+//            title: Text('遮罩动画'),
+//          ),
           //居中展示
           body: Center(
             //使用层叠组件 提供上下两个容器

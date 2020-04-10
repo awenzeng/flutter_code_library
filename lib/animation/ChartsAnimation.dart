@@ -14,9 +14,9 @@ class _ChartsAnimationState extends State<ChartsAnimation> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('图表动画'),
-      ),
+//      appBar: AppBar(
+//        title: Text('图表动画'),
+//      ),
       body: Center(
         child: Container(
           height: 400,

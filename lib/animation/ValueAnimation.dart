@@ -39,9 +39,9 @@ class _ValueAnimationState extends State<ValueAnimation> with TickerProviderStat
         animation: controller,
         builder: (BuildContext context, Widget child) {
           return Scaffold(
-              appBar: AppBar(
-                title: Text('数字变化动画'),
-              ),
+//              appBar: AppBar(
+//                title: Text('数字变化动画'),
+//              ),
               body: Center(
                 //根据补间对象产生的数字显示
                 child: Text(animation.value.toString(), style: TextStyle(fontSize: 48.0)),
